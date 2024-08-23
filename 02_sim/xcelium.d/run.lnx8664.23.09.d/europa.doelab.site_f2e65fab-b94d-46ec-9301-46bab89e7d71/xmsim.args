@@ -1,0 +1,24 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
++access+rwc
+-MESSAGES
++EMGRLOG
+xrun.log
+-XLSTIME
+1724255308
+-XLKEEP
+-XLMODE
+./xcelium.d/run.lnx8664.23.09.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/run.lnx8664.23.09.d/cds.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.23.09.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	23.09-s003"
+-XLNAME
+./xcelium.d/run.lnx8664.23.09.d/europa.doelab.site_f2e65fab-b94d-46ec-9301-46bab89e7d71

@@ -1,0 +1,59 @@
+xrun(64): 23.09-s003: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.09-s003: Started on Aug 23, 2024 at 11:26:32 +07
+xrun
+	-sv
+	-f ../00_src/flist.f
+		../00_src/register.sv
+		../00_src/Exercise1.sv
+		../00_src/adder.sv
+		../00_src/compare_A_lt_B.sv
+		../00_src/FSM.sv
+	../01_tb/testbench.sv
+	-timescale 1ps/1ps
+	+access+rwc
+Recompiling... reason: file '../01_tb/testbench.sv' is newer than expected.
+	expected: Fri Aug 23 11:23:55 2024
+	actual:   Fri Aug 23 11:26:27 2024
+file: ../01_tb/testbench.sv
+	module worklib.Exercise1_tb:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		Exercise1_tb
+	Building instance overlay tables: .
+            MEM[i] = $urandom_range(8'd5, 8'd255);
+                                    |
+xmelab: *W,INTWID (../01_tb/testbench.sv,51|36): Invalid width (8) on argument, (32) expected.
+            MEM[i] = $urandom_range(8'd5, 8'd255);
+                                          |
+xmelab: *W,INTWID (../01_tb/testbench.sv,51|42): Invalid width (8) on argument, (32) expected.
+................... Done
+	Generating native compiled code:
+		worklib.Exercise1_tb:sv <0x61011393>
+			streams:  15, words:  8055
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                13       6
+		Registers:              60      53
+		Scalar wires:           54       -
+		Vectored wires:         43       -
+		Always blocks:          14       7
+		Initial blocks:          2       2
+		Cont. assignments:       4       4
+		Pseudo assignments:     51       -
+		Process Clocks:          7       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.Exercise1_tb:sv
+Loading snapshot worklib.Exercise1_tb:sv .................... Done
+SVSEED default: 1
+xcelium> source /tools/cadence/XCELIUM2309/tools/xcelium/files/xmsimrc
+xcelium> run
+MIN:   5
+MAX: 255
+Simulation complete via $finish(1) at time 20745 PS + 0
+../01_tb/testbench.sv:70         $finish;
+xcelium> exit
+TOOL:	xrun(64)	23.09-s003: Exiting on Aug 23, 2024 at 11:26:32 +07  (total: 00:00:00)

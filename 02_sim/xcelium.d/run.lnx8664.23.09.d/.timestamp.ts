@@ -1,0 +1,13 @@
+1724386782 /earth/mars/mars04/workspace/Exercise1/00_src/FSM.sv
+1724242722 /earth/mars/mars04/workspace/Excercise1/00_src/register.sv
+1724247420 /earth/mars/mars04/workspace/Excercise1/00_src/FSM.sv
+1724242721 /earth/mars/mars04/workspace/Excercise1/00_src/adder.sv
+1724242721 /earth/mars/mars04/workspace/Excercise1/00_src/compare_A_lt_B.sv
+1724247391 /earth/mars/mars04/workspace/Excercise1/00_src/Exercise1.sv
+1724385025 /earth/mars/mars04/workspace/Exercise1/00_src/Exercise1.sv
+1724387187 /earth/mars/mars04/workspace/Exercise1/01_tb/testbench.sv
+1724242722 /earth/mars/mars04/workspace/Excercise1/00_src/Exercise1_tb.sv
+1724342181 /earth/mars/mars04/workspace/Exercise1/00_src/register.sv
+1724341233 /earth/mars/mars04/workspace/Exercise1/00_src/adder.sv
+1724382246 /earth/mars/mars04/workspace/Exercise1/00_src/compare_A_lt_B.sv
+1724246255 /earth/mars/mars04/workspace/Excercise1/01_tb/testbench.sv
